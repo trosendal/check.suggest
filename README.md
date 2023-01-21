@@ -1,5 +1,5 @@
-[![Build Status](https://github.com/trosendal/check.suggests/actions/workflows/r.yml/badge.svg)](https://github.com/trosendal/check.suggests/actions/workflows/r.yml)
-[![Code coverage](https://codecov.io/gh/trosendal/check.suggests/branch/main/graph/badge.svg)](https://app.codecov.io/gh/trosendal/check.suggests)
+[![Build Status](https://github.com/trosendal/check.suggest/actions/workflows/r.yml/badge.svg)](https://github.com/trosendal/check.suggest/actions/workflows/r.yml)
+[![Code coverage](https://codecov.io/gh/trosendal/check.suggest/branch/main/graph/badge.svg)](https://app.codecov.io/gh/trosendal/check.suggest)
 
 # Introduction
 
