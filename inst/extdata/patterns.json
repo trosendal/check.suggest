@@ -1,0 +1,35 @@
+[
+    {"pattern":
+     "replacing previous import",
+     "suggestion":
+     "You may be importing 1 or more packages that either have functions
+with the same name or functions that have the same name as a function
+in your package. When this happens, it can be difficult to know which
+version of the function you are using. To avoid this, you should
+import just the functions you need from a package and no more. Look
+for '@import' statements in your roxygen documentation and replace
+them, where needed, with '@importFrom <packageame>
+<functionname>'. You may need lots of functions from a package and
+want to instead import all but one or two functions. You can do that
+by changing your '@import' statements to '@rawNamespace
+import(<packagename>, except = <functionname>)' to avoid conflicts."
+    },
+    {"pattern":
+     "Found the following files with non-ASCII characters",
+     "suggestion":
+     "You have non-ascii characters in your code and to be certain
+everything works it is good practice to replace them with '\\uxxxx'
+notation. Since you are probably dealing with the last three letters
+of the Swedish alphabet, you can replace them as follows anywhere they
+appear in your code: \u00D6 = \\u00D6, \u00F6 = \\u00F6, \u00C4 =
+\\u00C4, \u00E4 = \\u00E4, \u00C5 = \\u00C5, \u00E5 = \\u00E5"
+    },
+    {"pattern":
+     "Non-standard file/directory found at top level",
+     "suggestion":
+     "You have some files in the root directory of your package that are not
+part of the standard R package structure. They can stay there, but you
+just need to add a file: '.Rbuildignore' to the root and list the
+files you need to be ignored, one file per line."
+    }
+]

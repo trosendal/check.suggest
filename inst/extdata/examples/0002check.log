@@ -1,0 +1,75 @@
+* using log directory ‘/home/trosendal/projects/kalvpaketetApp/kalvpaketetApp/kalvpaketetApp.Rcheck’
+* using R version 4.2.2 (2022-10-31)
+* using platform: x86_64-redhat-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-stop-on-test-error --as-cran’
+* checking for file ‘kalvpaketetApp/DESCRIPTION’ ... OK
+* this is package ‘kalvpaketetApp’ version ‘1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘kalvpaketetApp’ can be installed ... WARNING
+Found the following significant warnings:
+  Warning: replacing previous import ‘DT::dataTableOutput’ by ‘shiny::dataTableOutput’ when loading ‘kalvpaketetApp’
+  Warning: replacing previous import ‘DT::renderDataTable’ by ‘shiny::renderDataTable’ when loading ‘kalvpaketetApp’
+See ‘/home/trosendal/projects/kalvpaketetApp/kalvpaketetApp/kalvpaketetApp.Rcheck/00install.out’ for details.
+* checking installed package size ... NOTE
+  installed size is  8.4Mb
+  sub-directories of 1Mb or more:
+    extdata   3.0Mb
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... WARNING
+Found the following files with non-ASCII characters:
+  modules_ui.R
+  plots.R
+  server.R
+  ui.R
+Portable packages must use only ASCII characters in their R code,
+except perhaps in comments.
+Use \uxxxx escapes for other characters.
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+pathogenSampleDataServer : <anonymous>: no visible global function
+  definition for ‘.’
+serumValueSampleDataServer : <anonymous>: no visible global function
+  definition for ‘.’
+Undefined global functions or variables:
+  .
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... NONE
+* checking PDF version of manual ... OK
+* skipping checking HTML version of manual: no command ‘tidy’ found
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 2 WARNINGs, 2 NOTEs

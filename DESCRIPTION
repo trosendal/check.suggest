@@ -1,0 +1,17 @@
+Package: check.suggest
+Title: check.suggest
+Version: 0.1
+Author: Thomas Rosendal
+Maintainer: Thomas Rosendal <thomas.rosendal@sva.se>
+Description: A package that reads in the log from R CMD check, finds
+    some patterns and makes suggestions for solutions to those
+    problems. To add to the patterns and suggested solutions, you just
+    need to update the data in the inst/extdata/patterns.json file.
+License: GPL (>= 3)
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Depends: R (>= 4.0.0)
+Imports:
+    rjson
+Collate:
+    'suggest.R'
