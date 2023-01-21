@@ -19,4 +19,4 @@ jobs:
           git --git-dir=../ansible-r-ci/.git --work-tree=../ansible-r-ci/ checkout main
 
       - name: Check package
-        run: ansible-playbook -i localhost, ../ansible-r-ci/r-ci.yml
+        run: ansible-playbook -i localhost, --extra-vars "r_ci_covr=codecov" ../ansible-r-ci/r-ci.yml
