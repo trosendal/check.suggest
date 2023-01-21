@@ -6,7 +6,7 @@
 ##' @param path The path to the check log file
 ##' @importFrom rjson fromJSON
 ##' @export
-##' @return NULL
+##' @return invisible(NULL)
 suggest <- function(path) {
     x <- system.file("extdata/patterns.json",
                      package = "check.suggest")
@@ -18,4 +18,6 @@ suggest <- function(path) {
             message <- paste0(strwrap(x[[i]]["suggestion"]), "\n")
         cat(message, "\n")
     }
+
+    invisible(NULL)
 }
