@@ -10,7 +10,7 @@
 suggest <- function(path) {
     x <- system.file("extdata/patterns.json",
                      package = "check.suggest")
-    x <- fromJSON(file = x)
+    x <- rjson::fromJSON(file = x)
     y <- readLines(path)
     for (i in seq_along(x)) {
         message <- NULL
