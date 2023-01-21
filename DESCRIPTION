@@ -10,7 +10,7 @@ Description: A package that reads in the log from R CMD check, finds
 License: GPL (>= 3)
 Encoding: UTF-8
 RoxygenNote: 7.2.3
-Depends: R (>= 4.0.0)
+Depends: R (>= 4.0)
 Imports:
     rjson
 Collate:
