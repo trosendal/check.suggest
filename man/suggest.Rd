@@ -4,10 +4,15 @@
 \alias{suggest}
 \title{suggest}
 \usage{
-suggest(path)
+suggest(log, path)
 }
 \arguments{
+\item{log}{A string containing the check log}
+
 \item{path}{The path to the check log file}
+}
+\value{
+invisible(NULL)
 }
 \description{
 A function that reads the output from R CMD check and if it finds
