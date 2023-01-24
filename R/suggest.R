@@ -5,7 +5,6 @@
 ##'
 ##' @param log A string containing the check log
 ##' @param path The path to the check log file
-##' @importFrom rjson fromJSON
 ##' @export
 ##' @return invisible(NULL)
 suggest <- function(log, path) {
